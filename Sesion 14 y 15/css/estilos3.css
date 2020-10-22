@@ -1,0 +1,16 @@
+.tamaño{
+    height: 35px;
+}
+.fuente{
+    height: 15px;
+}
+#caja1{
+    background-color: orangered;
+}
+#caja2{
+    background-color: olivedrab;
+    float: right;
+}
+#caja3{
+    float: right;
+}
