@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="icon" href="img/icono.jpg">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Encuesta Cinematográfica</title>
 </head>
 <body>
-    <div id="contenedor">
-        <h2>Encuesta de Cine:Nominadas a oscar 2019</h2>
+    <div class="contenedor">
+        <h1 class="titulo">Encuesta de Cine:Nominadas a Oscar 2019</h1>
         <form id="formulario1" name="Formulario 1" method="POST" action="data.php">
             <fieldset id="datos_personales">
                 <legend>Datos Personales</legend>
@@ -22,14 +23,21 @@
             </fieldset>
             <fieldset id="mejor pelicula">
                 <legend>Mejor Pelicula</legend>
-                <input type="text" name="pelicula" id="11">Avengers End Game <br>
-                <input type="text" name="pelicula" id="22">Creep 2 <br>
-                <input type="text" name="pelicula" id="33">Alita:Angel de Combate <br>
-                <input type="text" name="pelicula" id="44">Jhon Wick 3 <br>
+                <input type="radio" name="pelicula" id="11">Avengers End Game<br>
+                <input type="radio" name="pelicula" id="22">Creep 2 <br>
+                <input type="radio" name="pelicula" id="33">Alita:Angel de Combate <br>
+                <input type="radio" name="pelicula" id="44">Jhon Wick 3 <br>
+            </fieldset>
+            <fieldset id="seleccionar">
+                <legend>Selecciona las peliculas que no hayas visto</legend>
+                <input type="radio" name="pelicula" id="11">Avengers End Game<br>
+                <input type="radio" name="pelicula" id="22">Creep 2 <br>
+                <input type="radio" name="pelicula" id="33">Alita:Angel de Combate <br>
+                <input type="radio" name="pelicula" id="44">Jhon Wick 3 <br>
             </fieldset>
             <fieldset id="grupo_argumento">
                 <legend>Argumento de tu pelicula preferida</legend>
-                <textarea name="argumento" id="argumento" cols="150" rows="7"></textarea>
+                <textarea name="argumento" id="argumento" cols="85" rows="10"></textarea>
             </fieldset>
             <br>
             <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">
