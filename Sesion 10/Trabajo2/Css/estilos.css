@@ -20,3 +20,16 @@ hr{
 a{
     color: white;
 }
+.datos{
+    display: flex;
+    flex-direction: row;
+}
+table, th, td{
+    border: 1px;
+    border-collapse: collapse;
+    width: 50%; 
+    border-style:groove;
+}
+.tamaño{
+    padding: 10px 70px;
+}
