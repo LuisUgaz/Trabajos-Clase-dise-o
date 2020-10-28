@@ -1,0 +1,26 @@
+.main{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: "head head head" "menu contenedor enlaces" "foot foot foot";
+}
+.a{
+    grid-area: head;
+    background-color: blue;
+}
+.b{
+    grid-area: menu;
+    background-color: blueviolet;
+}
+.c{
+    grid-area: contenedor;
+    background-color: brown;
+}
+.d{
+    grid-area: foot;
+    background-color: cadetblue;
+}
+.e{
+    grid-area: enlaces;
+    background-color: crimson;
+}
