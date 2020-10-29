@@ -6,21 +6,22 @@
 }
 .a{
     grid-area: head;
-    background-color: blue;
+    background-color: blueviolet;
+    
 }
 .b{
     grid-area: menu;
-    background-color: blueviolet;
+    background-color: deepskyblue;
 }
 .c{
     grid-area: contenedor;
-    background-color: brown;
+    background-color: rgb(25, 25, 129);
 }
 .d{
     grid-area: foot;
-    background-color: cadetblue;
+    background-color:  rgb(168, 83, 204);
 }
 .e{
     grid-area: enlaces;
-    background-color: crimson;
+    background-color: rgb(104, 32, 134);
 }
