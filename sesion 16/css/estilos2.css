@@ -1,27 +1,38 @@
-.main{
+main {
+    color: gainsboro;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 40px auto 40px;
-    grid-template-areas: "head head head" "menu contenedor enlaces" "foot foot foot";
-}
-.a{
-    grid-area: head;
-    background-color: blueviolet;
-    
-}
-.b{
-    grid-area: menu;
-    background-color: deepskyblue;
-}
-.c{
-    grid-area: contenedor;
-    background-color: rgb(25, 25, 129);
-}
-.d{
-    grid-area: foot;
-    background-color:  rgb(168, 83, 204);
-}
-.e{
-    grid-area: enlaces;
-    background-color: rgb(104, 32, 134);
-}
+    grid-template-rows: 200px 400px 200px;
+    grid-template-areas:
+      "my-header my-header my-header"
+      "my-nav my-section my-aside"
+      "my-footer my-footer my-footer"
+  }
+
+  header {
+    grid-area: my-header;
+    background-color: rgb(171, 100, 237);
+  }
+
+  nav {
+    grid-area: my-nav;
+    background-color: turquoise;
+  }
+
+  aside {
+    grid-area: my-aside;
+    background-color: rgba(83, 13, 85, 0.952);
+  }
+
+  section {
+    grid-area: my-section;
+    background-color: rgb(40, 40, 129);
+  }
+
+  footer {
+    grid-area: my-footer;
+    background-color: rgba(159, 41, 170, 0.952);
+  }
