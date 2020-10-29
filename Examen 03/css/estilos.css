@@ -1,0 +1,107 @@
+.noticia1{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+.noticia2{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+main {
+    color: white;
+    margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "my-header my-header my-header"
+      "my-nav my-nav my-nav"
+      "my-section my-section my-aside"
+      "my-footer my-footer my-footer";
+    padding: 10px;
+  }
+  
+  header {
+    grid-area: my-header;
+    background-color: rgb(58, 91, 182);
+  }
+  
+  nav {
+    grid-area: my-nav;
+    background-color: rgb(32, 184, 184);
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  aside {
+    grid-area: my-aside;
+    background-color:  rgb(72, 173, 173);
+  
+  }
+  
+  section {
+    grid-area: my-section;
+    background-color: white;
+    color: black;
+  }
+  
+  footer {
+    grid-area: my-footer;
+    background-color: #A3804D;
+  }
+  
+  
+  header .encabezado{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav a{
+    background-color: rgb(32, 184, 184);
+    color:white;
+    text-decoration:none;
+    text-align: center;
+  
+    float: left;
+    padding: 0.5em 3.5em;
+    width: 15% auto;
+  }
+  a:hover{
+      background-color: rgb(8, 104, 104);
+  }
+  footer .Informacion{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  header footer{
+    height: auto;
+  }
+  
+  .Informacion{
+    background-color: rgb(67, 141, 202);
+    padding: 9px;
+  }
+  
+  .autor{
+    background-color:  rgb(67, 141, 202);
+    text-align: center;
+    margin: 0px;
+    color: white;
+  }
+  .button{
+    border-style: inset;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background: #5688cad7; 
+    text-decoration: none;
+    color: white;
+    height: 38px;
+    font-size: x-large;
+    bottom: 83.3%;
+    right: 4%;
+    position: absolute;
+  }
