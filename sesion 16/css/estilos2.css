@@ -1,11 +1,11 @@
-main {
+main{
     color: gainsboro;
     margin: 0 auto;
     max-width: 1000px;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 200px 400px 200px;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
     grid-template-areas:
       "my-header my-header my-header"
       "my-nav my-section my-aside"
@@ -36,3 +36,25 @@ main {
     grid-area: my-footer;
     background-color: rgba(159, 41, 170, 0.952);
   }
+
+  @media (min-width: 600px) and (max-width: 1000px){
+      main{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 100px 1fr 100px;
+        grid-template-areas:
+          "my-header my-header"
+          "my-nav my-nav"
+          "my-aside my-section"
+          "my-footer my-footer"
+      }
+  }
+  @media (min-width: 1001px){
+    main{
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-rows: 200px 1fr 100px;
+      grid-template-areas:
+        "my-header my-header my-header"
+        "my-nav my-section my-aside"
+        "my-footer my-footer my-footer"
+    }
+}
