@@ -1,0 +1,104 @@
+
+body{
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor .form .form-header .form-tittle{
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(24, 101, 173);
+    text-align: center;   
+    padding: 14px 0;
+}
+
+.contenedor .form{
+    background: rgba(0, 0, 0, 0.541);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    border-radius: 4px;
+}
+
+.contenedor .form .form-label{
+    display: block;
+    color: rgb(240, 206, 210);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.contenedor .form .form-txt{
+    background: rgba(0,0,0,.8);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(69, 163, 163);
+    width: 96.5%;
+    padding: 12px;
+    margin-bottom: 15px; 
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor .form .btn-enviar{
+    width: 100.2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    background: rgb(67, 149, 160);
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+
+.contenedor .form .btn-enviar:hover{
+    background: rgb(95, 169, 179);
+}
+
+.contenedor .form .btn-fb{
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    background: rgb(21, 84, 134);
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 9px 0;
+    border-radius: 4px;
+}
+
+.contenedor .form .btn-gg{
+    width: 49.35%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    background: rgb(117, 36, 36);
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 9px 0;
+    border-radius: 4px;
+}
+
+.contenedor .form .form-lbl{
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contenedor .form .btn-fb:hover{
+    background: rgb(22, 118, 207);
+}
+
+.contenedor .form .btn-gg:hover{
+    background: rgb(233, 210, 210);
+}
+

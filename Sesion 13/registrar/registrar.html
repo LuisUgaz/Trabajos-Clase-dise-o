@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="icon" href="img/registrar.png";>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <meta name="autor" content="Ugaz Leonardo Luis">
+</head>
+<body>
+      <div class="contenedor">
+          <form action="" class="form">
+              <div class="form-header">
+                <h1 class="form-tittle">N<span>uevo </span>U<span>suario</span></h1>
+              </div>
+
+              <input type="submit" class="btn-fb" value="Registro con Facebook"> 
+              <input type="submit" class="btn-gg" value="Registro con Google">
+
+              <h3 class="form-lbl">O registrarse con</h3>
+
+              <label for="nombre" class="form-label">Nombres:</label>
+              <input type="text" id="nombre" class="form-txt" placeholder="Escriba su nombre">
+
+              <label for="apellido" class="form-label">Apellidos:</label>
+              <input type="text" id="apellido" class="form-txt" placeholder="Escriba su apellido">
+
+              <label for="correo" class="form-label">Correo electronico:</label>
+              <input type="email" id="correo" class="form-txt" placeholder="Escriba su correo">
+
+              <label for="contraseña" class="form-label">Contraseña:</label>
+              <input type="password" id="contraseña" class="form-txt" placeholder="Escriba su contraseña">
+
+              <label style="color: rgb(226, 212, 202);">
+                <input type="checkbox"  id="terminos">
+                Al crear esta cuenta, aceptas nuestros terminos y condiciones.
+              </label>
+
+              <input type="submit" class="btn-enviar" value="Enviar">
+          </form>
+      </div>  
+</body>
+</html>
