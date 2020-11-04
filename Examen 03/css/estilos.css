@@ -115,3 +115,21 @@ main {
     padding: 1em;
     width: 10% auto;
   }
+  .btn-ingresar ,.btn-registrar{
+    width: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    background: rgba(81, 206, 200, 0.801);
+    font-size: 16px;
+    border: none;
+    padding: 8px 30%;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.cuerpoIS{
+    width: 20%;
+    padding: 14px;
+    text-align: center;
+    align-content: center;
+    margin-left: 35%;
+}
