@@ -1,0 +1,116 @@
+body{
+  background: url(../IMG/fondoveterinaria.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  color: gainsboro;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 50px 1fr 100px 50px;
+  grid-template-areas:
+    "my-header my-header my-header"
+    "my-nav my-nav my-nav"
+    "my-section my-section my-section"
+    "my-aside my-aside my-aside"
+    "my-footer my-footer my-footer"
+}
+
+header {
+  grid-area: my-header;
+  background-color: rgba(164, 235, 217, 0.801);
+}
+
+nav {
+  grid-area: my-nav;
+  background-color: rgba(210, 224, 238, 0.904);
+}
+
+aside {
+  grid-area: my-aside;
+  background-color: rgba(74, 57, 228, 0.952);
+}
+
+section {
+  grid-area: my-section;
+  background-color: rgba(37, 100, 128, 0.815);
+}
+
+footer {
+  grid-area: my-footer;
+  background-color: rgba(15, 75, 33, 0.952);
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  main {
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 150px 100px 1fr 100px;
+    grid-template-areas:
+      "my-header my-header my-header"
+      "my-nav my-nav my-nav"
+      "my-aside my-section my-section"
+      "my-footer my-footer my-footer"
+  }
+}
+
+@media (min-width: 1001px) {
+  main {
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas:
+      "my-header my-header my-header"
+      "my-nav my-section my-aside"
+      "my-footer my-footer my-footer"
+  }
+}
+
+nav a{
+  color:blanchedalmond;
+  text-decoration:none;
+  padding:68px 25px;
+  text-align: center; 
+  background-color: rgba(93, 92, 92, 0.808);
+  display: block;
+  width: 80px;
+  font-size: 20px;
+}
+a:hover{
+  background-color: rgba(63, 62, 62, 0.849);
+}
+
+.titulo{
+  color: black;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkcyan;
+}
+
+.subtitulo{
+  color: black;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.contenedor1 ,.contenedor2,.contenedor3{
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.text{
+  text-align: justify;
+  padding: 4px 13px;
+}
+
+.contenedor{
+  background: rgba(255, 255, 255, 0.692);
+  width: 80%;
+  height: auto;
+  margin: auto;
+}

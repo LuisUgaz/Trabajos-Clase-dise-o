@@ -1,0 +1,35 @@
+body{
+    background: url(../img/background-159244_960_720.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.titulos{
+    background-color:rgb(16, 81, 145);
+    height: 2.5rem;
+    border-radius: 6px;
+    max-width: 24%;
+}
+hr{
+    height: 0.8rem;
+    background-color:rgba(16, 81, 145, 0.884);
+    width: 418%;
+    margin-top: 0%;
+    border: none;
+}
+a{
+    color: white;
+}
+.datos{
+    display: flex;
+    flex-direction: row;
+}
+table, th, td{
+    border: 1px;
+    border-collapse: collapse;
+    width: 50%; 
+    border-style:groove;
+}
+.tamaño{
+    padding: 10px 70px;
+}
