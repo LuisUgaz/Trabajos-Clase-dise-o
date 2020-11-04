@@ -105,3 +105,13 @@ main {
     right: 4%;
     position: absolute;
   }
+  .Pry1{
+    float: left;
+    padding: 3em;
+    width: 35% auto;
+  }
+  .cuerpoContactos{
+    float: left;
+    padding: 1em;
+    width: 10% auto;
+  }

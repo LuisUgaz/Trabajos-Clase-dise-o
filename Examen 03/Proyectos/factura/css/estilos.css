@@ -1,0 +1,21 @@
+body{
+    padding:10px 35px;
+    margin:0px;
+}
+
+.nav a{
+    background-color: rgb(224, 141, 15);
+    color:blanchedalmond;
+    text-decoration:none;
+    text-align: center;
+    padding: 18px 30px;
+    width:80px;
+    display: block;
+    
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
