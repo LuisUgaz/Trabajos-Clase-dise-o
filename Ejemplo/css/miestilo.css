@@ -1,0 +1,57 @@
+html, body{
+    height: 100%;
+    background: url(../img/general2.jpg);
+}
+
+#cover{
+    background: rgb(117, 117, 117) url(../img/fondo02.jpg) center no-repeat; /*fondo unico*/
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
+
+.footer-copyright{
+    background-color: rgba(185, 184, 184, 0.685);
+}
+
+footer{
+    background-color: rgba(236, 236, 236, 0.952);
+}
+
+.tit{
+    background: rgba(238, 238, 238, 0.931);
+}
+
+.card-body{
+    background-color: rgb(243, 243, 243);
+}
+
+nav{
+    background-color: rgba(241, 239, 239, 0.986);
+}
+
+#titulo{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+#boton{
+    background: rgb(143, 142, 142);
+    border: lightgray;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#btn{
+    background-color: rgb(212, 212, 212);
+    border: lightgray;
+    color: black;
+}

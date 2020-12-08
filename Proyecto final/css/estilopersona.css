@@ -1,0 +1,88 @@
+html{
+    overflow-x: hidden;
+}
+.ht{
+    background-image:url(../img/personalización.png) ;
+    height: 17em;
+    
+  }
+body{
+    background: black;
+}
+.pls{
+    background-image: url(../img/personalizacion2.jpg);
+}
+h5{
+    text-align: center;
+    scroll-margin-right: 50px;
+
+}
+#card1{
+    height: 44em;
+    float: left;
+    background-image: url(../img/personalizacion2.jpg);
+    
+}
+#card2{
+    float: right;
+    height: 14.5em;
+}
+
+#modificacion{
+    height: 10em;
+    
+
+}
+#card3{
+    
+    float: right;
+    height: 14.5em;
+    
+}
+.previsualizacion, .personalizaGuitarra{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-style: italic;
+}
+div .card{
+    background-image: url(../img/personalizacion1.jpg);
+    height: 100%;
+    width: 100%;
+}
+*{
+    color: blanchedalmond;
+   
+}
+
+.tituloper{
+    background-image: url(../img/fondoCat.jpg);
+    height: 7rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#espaciado2{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 20%;
+}
+
+.separacion1{
+    margin-top: 30%;
+}
+
+#fondoN1{
+    background-image: url(../img/fondoCat.jpg);
+}
+
+.tituco{
+    font-size: 300%;
+    text-align: center;
+    color: black;
+    margin-top: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

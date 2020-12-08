@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilosgenerales.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/estiloCatalogo.css">
+    <link rel="icon" href="img/logoFinal.png">
+    <title>Catálogo de guitarras acústicas</title>
+</head>
+
+<body>
+
+<!-- --------------------------------- nav --------------------------------- -->
+<div id="animacion" class="sc"><a href="ServicioCliente.html"> <img src="img/servicioCliente.png" alt="" height="70" width="90"></a></div>
+
+<header>
+    <nav class="navbar navbar-dark bg-dark" id="fondoNav" >
+        <div>
+            <img src="img/logoFinal.png" alt="right" width="100" height="100">
+            <a id="tituloPag">NVJ Guitar</a>  
+        </div>
+        <nav class="navbar navbar-expand-lg" id="desplegable" >
+            <button class="navbar-toggler" id="iconf" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" id="fondomenu">
+                <li class="nav-item">
+                  <a class="colorLink" id="F2" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="colorLink" id="FI" href="G_Electricas.html">Guitarras eléctricas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="colorLink" id="F2" href="G_Acusticas.html">Guitarras Acústicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="colorLink" id="F2" href="Accesorios.html">Accesorios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="colorLink" id="F2" href="Personalizacion.html">Personaliza tu guitarra</a>
+                </li>
+                <li class="nav-item">
+                    <a class="colorLink" id="F2" href="Reparacion.html">Reparaciones</a>
+                </li>
+              </ul>
+            </div>
+          </nav>  
+        <form class="form-inline">
+            <div class="formaBus">
+                <input class="buscador" type="search" placeholder="Buscar">
+                <button class="botonBuscador" type="submit"><img src="img/lupa.png" alt="" width="25" height="30" /></button>
+            </div>
+            <div>
+                  <a class="botonCarrito" href="Carrito.html"><img src="img/carrito.png" width="50" height="50" /></a>
+            </div>
+            <button type="button" class="btnIS" data-toggle="modal" data-target="#exampleModalCenter"><img src="img/login.png" width="40" height="40" /> Iniciar Sesión</button>
+        </form>
+    </nav>
+</header>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+
+        <div class="contenidoMIS">
+          <h5 class="modal-title"><img src="img/iniciars/iconlogin.png" alt="" height="35" width="35"> <u>Iniciar Sesion</u> </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+          <br> <br>
+        
+          <label for="correo" class="form-label"> <img src="img/iniciars/arroba_bg.png" alt="" height="35" width="35"> Correo electronico:</label>
+          <input type="email" id="correo" class="form-txt1" placeholder="Escriba su correo">
+          <br> <br>
+          <label for="contraseña" class="form-label"> <img src="img/iniciars/candado.png" alt="" height="35" width="35"> Contraseña:</label>
+          <input type="password" id="contraseña" class="form-txt1" placeholder="Escriba su contraseña">
+          <div class="contraseña"><a href="">¿Olvidaste tu contraseña?</a></div>
+          <br> 
+          
+          <div class="botones">
+            <button type="button" class="btnIngresar" data-toggle="modal" data-target="#exampleModal3">Ingresar</button>
+            <br>
+            <button type="button" class="registrarbtn" data-toggle="modal" data-target="#exampleModalCenter2">Registarse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-contentN">
+        <div class="modal-header">
+          <h7 id="titulocomentario" class="modal-title" id="exampleModalLabel">Ingresó correctamente</h7>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal4" tabindex="30" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-contentN">
+        <div class="modal-header">
+          <h7 id="titulocomentario" class="modal-title" id="exampleModalLabel">Se envio un correo de confirmación</h7>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModalCenter2" tabindex="-20" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="container register-form">
+      <div class="form">
+          <br>
+          <div class="modal-header">
+            <h5 class="modal-title"><img src="img/iniciars/iconlogin.png" alt="" height="35" width="35"> <u>Registarse</u> </h5>
+            <a href="index.html" class="cerrar" style="font-size: x-large;">X</a>
+          </div>
+          <br>
+
+          <div class="form-content">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="">Nombre:</label>
+                          <input type="text" class="rellenar" placeholder="Ingrese su nombre" value=""/>
+                      </div>
+                      <div class="form-group">
+                          <label for="">Apellido:</label>
+                          <input type="text" class="rellenar" placeholder="Ingrese su apellido" value=""/>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Correo:</label>
+                        <input type="text" class="rellenar" placeholder="Ingrese su correo" value=""/>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Contraseña:</label>
+                        <input type="text" class="rellenar" placeholder="Ingrese su contraseña" value=""/>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Confirmar contraseña:</label>
+                        <input type="text" class="rellenar" placeholder="Confirme contraseña" value=""/>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Telefono:</label>
+                        <input type="text" class="rellenar" placeholder="Ingrese su telefono" value=""/>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Dirección:</label>
+                        <input type="text" class="rellenar" placeholder="Ingrese su dirección" value=""/>
+                      </div>
+                  </div>
+                  <div class="col-md-6" id="fondoRegistro2" >
+                      <div class="form-group">
+                          <label for="">Sexo:</label>
+                            <br>
+                            <div class="btn-group" role="group">
+                              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Selccione su Sexo
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="#">Masculino</a>
+                                <a class="dropdown-item" href="#">Femenino</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="">País:</label>
+                          <br>
+                            <div class="btn-group" role="group">
+                              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Selccione su país
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="#">Péru</a>
+                                <a class="dropdown-item" href="#">Argentina</a>
+                                <a class="dropdown-item" href="#">Colombia</a>
+                                <a class="dropdown-item" href="#">Ecuador</a>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Ciudad:</label>
+                        <br>
+                          <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Selccione su ciudad
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                              <a class="dropdown-item" href="#">Lambayeque</a>
+                              <a class="dropdown-item" href="#">Lima</a>
+                              <a class="dropdown-item" href="#">Piura</a>
+                              <a class="dropdown-item" href="#">Cusco</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="">Fecha de nacimiento:</label>
+                        <input type="date" class="rellenar" value=""/>
+                            
+                      </div>
+                      <label>
+                        <input type="checkbox"  id="terminos">
+                        Al crear esta cuenta, aceptas nuestros terminos y condiciones.
+                      </label>
+                      <button type="button" class="btnRegis" data-toggle="modal" data-target="#exampleModalCenter4">Registarse</button>
+                      <br>
+                      <h4>Registarse con:</h4>
+                      
+                      <div class="btnredes">
+                      <button type="button" role="link" class="btnFb" href="https://www.facebook.com/">Facebook</button>
+                      
+                      <br>
+                      <button type="button" role="link" class="btnG"  href="https://www.google.com/">Gmail</button>
+                      </div>
+                      <br>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>                   
+    
+<!-- ----------------------------------------------------------------------- -->
+<li class="nav-item dropdown" id="btnvc">
+    <img src="img/cart.png" class="nav-link dropdown-toggle img-fluid" height="20px"
+        width="130px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false"></img>
+    <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+        <table id="lista-carrito" class="table">
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+    </div>
+</li>
+
+<!-- ----------------------------------------------------------------------- -->
+<div class="franja">
+    <a href="Carrito.html" id="procesar-compra" class="btn btn-danger btn-block"><img src="img/pago.png" alt="" height="80" width="80"></a>
+</div>
+<hr class="lineas">
+<div class="fondoCat">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 id="titC"  class="display-4 mt-4"><u>Guitarras eléctricas</u></h1>
+        </div>
+    
+        <div class="caja" id="lista-productos">   
+            <div class="card-deck mb-3 text-center">
+                    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Electrica ENCORE E2</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE1_Guitarra Electrica ENCORE E2 E2BLK GLOSS BLACK.jpg"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">620</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="9">Añadir a carrito</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Electrica ENCORE E6</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE2_Guitarra Electrica ENCORE E6 E6BLK GLOSS BLACK.jpg"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">686</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="10">Añadir a carrito</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Electrica ENCORE E69</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE3_Guitarra Electrica ENCORE E69 E69BLK GLOSS BLACK.jpg"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">910</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="11">Añadir a carrito</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Electrica ENCORE E99</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE4_Guitarra Electrica ENCORE E99 E99CSB CHERRY SUNBURST.jpg"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">910</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="12">Añadir a carrito</a>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="card-deck mb-3 text-center">
+                    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Eléctrica Epiphone</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE5_Guitarra Eléctrica Epiphone Les Paul SL.jpg"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">788</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="13">Añadir a carrito</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Eléctrica Memphis</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE6_Guitarra Eléctrica Memphis.png"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">399</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="14">Añadir a carrito</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Eléctrica Paul</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE7_Guitarra Eléctrica Paul Stanley Washburn PS220BB.jpg"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">497</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="15">Añadir a carrito</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Guitarra Eléctrica Cort</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/productos/guitarras electricas/GE8_Guitarra Eléctrica Cort CR250 TBK.jpg"card-img-top width="100%" height="80%">
+                        <h1 class="card-title pricing-card-title precio">S/. <span class="">999</span></h1>
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="16">Añadir a carrito</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>    
+</div>
+
+<hr class="lineas">
+
+    <!-- ------------------------------- fooder -------------------------------- -->
+<footer>
+    <div class="card" id="fondo" >
+      <div class="card-body">
+        <div class="row">
+
+          <div class="col-sm-5">
+            <div class="caja1">
+              <div class="card-body">
+                <img src="img/mapa.png" alt="" width="100%" height="240">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="caja2">
+              <div class="card-body">
+                <ul>
+                  <br>
+                    <li>Horario de atención:</li>
+                      <p>-Lunes a viernes: 8 a.m a 9 p.m</p> 
+                      <p>-Sábados y domingos: 8 a.m a 1 p.m</p> 
+                    <li>Dirección:</li>
+                      <p>-Av diamelas 343</p>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="caja3">
+              <div class="card-body">
+                <h6>Siguenos en:</h6>
+                <a class="btnr" href="https://es-la.facebook.com/"><img src="img/facebook.png" alt="" height="55" width="55"></a>
+                <a class="btnr" href="https://www.instagram.com/"><img src="img/instagram.png" alt="" height="55" width="55"></a>
+                <a class="btnr" href="https://twitter.com/"><img src="img/twitter.png" alt="" height="55" width="55"></a>
+                <hr color="white">
+                <h6>Consultas a whatsapp <img src="img/whatsapp.png" alt="" height="35" width="35"></h6>
+                <p>978 923 432</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>

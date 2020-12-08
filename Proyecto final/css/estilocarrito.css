@@ -1,0 +1,41 @@
+.contene1{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.lineas{
+    height: 1rem;
+    width: 100%;
+    background: black;
+}
+
+#exampleModalPago{
+    width: 80%;
+    height: 90%;
+    justify-content: center;
+
+}
+
+.fondopago{
+    background-image: url(../img/fondoregistrar.png);
+    color: black;
+    margin-left: 20%;
+    width: 100%;
+}
+
+.form{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+#MetodoPago{
+    width: 40%;
+}
+
+#MetodoPago1{
+    width: 27%;
+}
+
+#exampleModalCompra{
+    background-color: rgba(0, 0, 0, 0.76);
+}

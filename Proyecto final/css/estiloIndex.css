@@ -1,0 +1,552 @@
+body{
+    background-image: url(../img/fond.jpg);
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 16;
+}
+
+#tituloPag{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+
+.buscador{
+    background-color: transparent;
+    border: none;
+    width: 9rem;
+    height: 2.3rem;
+}
+
+input:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.botonBuscador{
+    background-color: transparent;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+}
+
+.formaBus{
+    background-color: white;
+    border-radius: 0.4rem;
+    width: 12rem;
+    height: 3.2rem;
+    border-color: rgb(170, 170, 170);
+    border-style: solid;
+    border-width: 0.3rem;
+}
+
+.botonCarrito{
+    background-color: transparent;
+    border: none;
+    margin-left: 0.5em;
+}
+
+.btnIS{
+    background-color: rgb(209, 209, 209);
+    border-radius: 0.4rem;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    margin-left: 0.5em;
+}
+
+.btnIS:hover{
+    background: rgb(170, 170, 170);
+}
+
+#navbarNav{
+    background-color: rgb(211, 208, 208);
+    border: solid 0.4em;
+    border-radius: 0.3em;
+    border-color: rgb(34, 34, 34);
+    height: 3.2em;
+}
+
+.colorLink{
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav{
+    position: static;
+}
+
+
+#fondoNav{
+    background: url(../img/navF.jpg);
+}
+
+#FI{
+    background-color: rgb(34, 34, 34);
+    padding: 0.7em 1em;
+    color: white;
+    text-decoration: none;
+}
+
+#F2{
+    text-decoration: none;
+}
+
+#F2:hover{
+    color: white;
+    background-color: rgb(34, 34, 34);
+    padding: 0.7em 1.2em;
+}
+
+#fondomenu{
+    background-color: rgb(211, 208, 208);
+    border-radius: 0.3em;
+    line-height: 2.5em;
+    
+}
+
+#desplegable{
+    z-index: 1;
+}
+
+#iconf{
+    background-color: rgb(10, 10, 10);
+}
+
+.carri{
+    position: fixed;
+    top: 54%;
+    right: 0em;
+    z-index: 16;
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.sc{
+    position: fixed;
+    top: 63%;
+    right: 0em;
+    z-index: 16;
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+/* -------------------------------- animación ------------------------------- */
+
+#animacion:before{
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+}
+#animacion:hover, #animacion:focus, #animacion:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+#animacion:hover:before, #animacion:focus:before, #animacion:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+/* ---------------------------------------------------- */
+
+.contenedor{
+    background-image: url(../img/quienesSomos/somos1.jpg);
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 2em;
+}
+
+.btnM{
+    position: absolute;
+    right:    0;
+    margin-right: 2em;
+    margin-bottom: 0em;
+    background: transparent;
+    border: none;
+}
+
+.informacion1{
+    margin-left: 4em;
+    padding: 9.2% 9%;
+    margin-top: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+}
+
+.informacion2{
+    margin-left: 4em;
+    padding: 9.2% 9%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    margin-bottom: 1em;
+}
+
+.posicion{
+    float: left; 
+    text-align: left; 
+}
+
+.cardV{
+    margin-top: 1em;
+    height: 94%;
+    object-fit: cover;
+}
+
+.foto{
+    height: 76.3%;
+    object-fit: cover;
+}
+
+.video1{
+    height: 33.5%;
+    object-fit: cover;
+}
+
+/* ---------------------------------------------------------------- */
+
+.catalogo{
+    height: 34em;
+    margin-top: 2em;
+    background-image: url(../img/catalogo/catalogo.jpg);
+    background-size: cover;
+}
+
+.btnPos{
+    margin-top: 24em;
+    margin-left: 2%;
+}
+
+#btnF{
+    background-color: transparent;
+    border: transparent;
+    margin-left: 10em;
+}
+
+.botonCat{
+    background-color: rgba(0, 0, 0, 0.616);
+    text-decoration: none;
+    color: white;
+    padding: 1em 4em;
+    border-radius: 0.3em;
+    border: solid 0.3em;
+    border-color: rgb(17, 17, 17);
+    margin-left: 0.2em;
+}
+
+.botonCat:hover{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgb(179, 179, 179);
+}
+
+.TitGV{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: xxx-large;
+}
+
+.cw{
+    background-image: url(../img/masvendidas/fondo.jpg);
+    height: 39em;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+.cardC{
+    background-color: rgba(112, 112, 112, 0.514);
+    height: 9rem;
+    color: white;
+}
+
+.container-fluid{
+    background-image: url(../img/comentario/fondo.jpg);
+    height: 15rem;
+}
+
+.container2{
+    text-align: center;
+    padding: 2rem 12rem;
+}
+
+
+.titComen{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 0.5em;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#titulocomentario{
+    font-size: 1.3rem;
+}
+/* ------------------------------------------------------------ */
+
+#fondo{
+    background-image: url(../img/fooder.jpg) ;
+}
+
+.linea{
+    height: 16rem;
+}
+
+.caja1{
+    margin-left: 3em;
+}
+
+.caja2{
+    color: white;
+    text-align: justify;
+}
+
+.caja3{
+    color: white;
+}
+
+.com{
+    text-align: center;
+}
+
+.btnr{
+    margin-left: 1.2em;
+
+}
+
+/* ---------------------Modal Iniciar Sesion------------------------- */
+
+.modal-content{
+    background-image: url(../img/iniciars/fondo.jpg);
+}
+
+.contenidoMIS{
+    height: 22rem;
+    margin: 4rem;
+    text-align: justify;
+}
+
+.form-txt1{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border:none;
+}
+
+.modal-title{
+    text-align: center;
+}
+
+.botones{
+    text-align: center;
+}
+
+.btnIngresar{
+    background-image: url(../img/iniciars/btn.jpg);
+    border-radius: 1rem;
+    padding: 0.5rem 10.5rem;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.contraseña{
+    text-align: right;
+}
+
+.registrarbtn{
+    background: transparent;
+    border: none;
+    color: blue;
+    margin-left: 2em;
+}
+
+.registrarbtn:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.modal-contentN{
+    background: rgb(230, 230, 230);
+}
+
+/* ----------------------------- modal registrar ---------------------------- */
+
+#exampleModalCenter2{
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(206, 206, 206);
+    height: 57.6rem;
+    display: grid;
+}
+
+.cerrar{
+    color: black;
+}
+
+.modal-title{
+    font-size: xx-large;
+}
+
+#fondoRegistro2{
+    background-image: url(../img/fondoregistrar.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+}
+
+.btnRegis{
+    background-image: url(../img/btnregis.jpg);
+    width: 91%;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.btnFb{
+    background-image: url(../img/fondoFb.jpg);
+    width: 91%;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.btnG{
+    background-image: url(../img/gmailf.jpg);
+    width: 91%;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.form-content{
+    line-height: 1.5em;
+}
+
+.rellenar{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black; 
+    width: 90%;
+    padding: 1rem;
+
+}
+
+.cerrar{
+    background-color: rgb(117, 117, 117);
+    color: white;
+    border-radius: 0.2rem;
+    width: 2rem;
+    text-align: center;
+}
+
+.cerrar:hover ,.btnFb:hover ,.btnG:hover{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+.contenidoartista{
+    background-color: rgba(0, 0, 0, 0.424);
+}
+
+.textoImg{
+    background-color: rgba(255, 255, 255, 0.842);
+    margin: 2rem;
+    margin-left: 4rem;
+    width: 86.5%;
+    margin-top: 17rem;
+    border: solid 0.5rem;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 0.5rem;
+    text-align: justify;
+    color: black;
+}
+
+#tituloartista{
+    color: white;
+}
+
+#exampleModalArtista{
+    margin-top: 5rem;
+}
+
+#btnGroupDrop1{
+    width: 18.3rem;
+    text-align: center;
+}
+
+.bordeM{
+    height: 2px;
+    border-radius: 3rem;
+    width: 40%;
+    background-color: black;
+}
+
+.borderV{
+    height: 2px;
+    border-radius: 3rem;
+    width: 30%;
+    background-color: black;
+}

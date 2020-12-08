@@ -1,0 +1,76 @@
+html{
+    overflow-x: hidden;
+}
+.fondoCat{
+    background-image: url(../img/fondoCat.jpg);
+}
+
+#titC{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    width: 110%;
+    margin-left: -1em;
+}
+
+.caja{
+    margin: 4rem;
+}
+
+.btn{
+    background-color: rgb(83, 83, 83);
+    border: none;
+    padding: 0.5rem 0rem;
+    margin-top: 1.5rem;
+}
+
+.btn:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+#cajaIT{
+    left: 80%;
+}
+
+
+#btnvc{
+    height: 5rem;
+    width: 10rem;
+
+    position: fixed;
+    top: 22%;
+    right: 0em;
+    z-index: 16;
+    color: transparent;
+}
+
+.franja{
+    height: auto;
+    width: auto;
+
+    position: fixed;
+    top: 19%;
+    right: 0em;
+    z-index: 16;
+}
+
+#procesar-compra{
+    background-color: transparent;
+}
+
+.lineas{
+    height: 1rem;
+    width: 100%;
+    background-image: url(../img/fondoCat.jpg);
+}
+
+h1{
+    font-size: large;
+}  
+
+h4{
+    font-size: x-large;
+}
+
+nav{
+    z-index: 18;
+}

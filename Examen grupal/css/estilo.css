@@ -1,0 +1,70 @@
+#titulo{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em; 
+}
+
+li a{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+.carousel-item{
+    height: 27rem;
+}
+
+.junto{
+    float: left;
+}
+
+footer{
+    background: url(../img/f1.jpg);
+    background-size: 30%;
+    color: white;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#carru{
+    padding-left: 1rem;
+}
+
+#bor{
+    border: none;
+}
+
+#texto{
+    text-align: center;
+    margin-top: 8%;
+}
+
+#cl{
+    background-color: rgb(34, 34, 34);
+    border: none;
+}
+
+#cl:hover{
+    background-color: rgb(104, 104, 104);
+}
+
+.card-title{
+    text-decoration: underline;
+}
+
+#co{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+#co:hover{
+    background: rgb(119, 119, 119);
+}
+
+
+section{
+    margin-top: 3rem;
+}

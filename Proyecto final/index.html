@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVJ Guitar</title>
+    <link rel="stylesheet" href="css/estiloIndex.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="img/logoFinal.png">
+    <link rel="stylesheet" href="css/swiper.min.css.css">
+    
+</head>
+<body>
+<!-- --------------------------------- Nav --------------------------------- -->
+<div id="animacion" class="carri"><a href="Carrito.html"> <img src="img/btncarro.png" alt="" height="70" width="90"></a></div>
+<div id="animacion" class="sc"><a href="ServicioCliente.html"> <img src="img/servicioCliente.png" alt="" height="70" width="90"></a></div>
+
+<header>
+<nav class="navbar navbar-dark bg-dark" id="fondoNav" >
+    <div>
+        <img src="img/logoFinal.png" alt="right" width="100" height="100">
+        <a id="tituloPag">NVJ Guitar</a>  
+    </div>
+
+    <nav class="navbar navbar-expand-lg" id="desplegable" >
+        <button class="navbar-toggler" id="iconf" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="fondomenu">
+            <li class="nav-item">
+              <a class="colorLink" id="FI" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="colorLink" id="F2" href="G_Electricas.html">Guitarras eléctricas</a>
+            </li>
+            <li class="nav-item">
+              <a class="colorLink" id="F2" href="G_Acusticas.html">Guitarras Acústicas</a>
+            </li>
+            <li class="nav-item">
+                <a class="colorLink" id="F2" href="Accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item">
+                <a class="colorLink" id="F2" href="Personalizacion.html">Personaliza tu guitarra</a>
+            </li>
+            <li class="nav-item">
+                <a class="colorLink" id="F2" href="Reparacion.html">Reparaciones</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    <form class="form-inline">
+        <div class="formaBus">
+            <input class="buscador" type="search" placeholder="Buscar">
+            <button class="botonBuscador" type="submit"><img src="img/lupa.png" alt="" width="25" height="30" /></button>
+        </div>
+        
+        <div>
+              <a class="botonCarrito" href="Carrito.html"><img src="img/carrito.png" width="50" height="50" /></a>
+        </div>
+
+        <button type="button" class="btnIS" data-toggle="modal" data-target="#exampleModalCenter"><img src="img/login.png" width="40" height="40" /> Iniciar Sesión</button>
+        
+    </form>
+    
+</nav>
+</header>
+<!-- ------------------------------- cuerpo -------------------------------- -->
+
+<!-- ------------------------------ carousel ------------------------------- -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrusel/gElectricas.jpg" class="d-block w-100" alt="..." width="50" height="930">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Guitarras Electricas</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel/gAcusticas.jpg" class="d-block w-100" alt="..." width="50" height="930">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Guitarras Acusticas</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel/accesorios.jpg" class="d-block w-100" alt="..." width="50" height="930">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Accesorios</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel/PersonalizaGuitarra.jpg" class="d-block w-100" alt="..." width="50" height="930">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Personaliza tu Guitarra</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel/reparaciones.jpg" class="d-block w-100" alt="..." width="50" height="930">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Reparaciones</h2>
+            </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+<!-- -------------------------------- datos -------------------------------- -->
+
+      <div class="contenedor">
+        <!--quienes somos / nuestros artistas-->
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="card1">
+              <div class="informacion1">
+                <h5 class="card-title">Acerca de nuestra tienda</h5>
+                <hr class="posicion" color="white" size=3 width="150">
+                <br> <br>
+                <p class="card-text">Somos una empresa que dedicada a la venta de guitarras, así como sus accesorios y reparaciones.</p>
+                <button type="button" class="btnM" data-toggle="modal" data-target="#exampleModal5"><img src="img/quienesSomos/mas.png" height="20" width="20"></button>
+              </div>
+            </div>
+
+            <div class="card2">
+              <div class="informacion2">
+                <h5 class="card-title">Nuestros artistas</h5>
+                <hr class="posicion" color="white" size=3 width="90">
+                <br> <br>
+                <p class="card-text">Nuestra tienda consta como varios artista de los cuales, puedes tener su firma!</p>
+
+                <button type="button" class="btnM" data-toggle="modal" data-target="#exampleModalArtista"><img src="img/quienesSomos/mas.png" height="20" width="20"></button>
+              </div>
+            </div>
+          </div>
+        <!--Imagen-->
+          <div class="col-sm-2">
+            <div class="cardV">
+              <div class="foto">
+                <img src="img/quienesSomos/foto.jpg" alt="" width="100%" height="130.5%">
+              </div>
+            </div>
+          </div>
+        <!--Video-->
+          <div class="col-sm-4">
+            <div class="cardV">
+              <div class="video1">
+                <iframe width="100%" height="297%"" src="https://www.youtube.com/embed/XNhydGQot4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- -------------------------- nuestro catalogo --------------------------- -->
+
+      <div class="catalogo">
+        <div class="card w-75" id="btnF" >
+          <div class="btnPos">
+            <a href="G_Acusticas.html" class="botonCat" style="text-decoration: none;">G.Acustica</a>
+            <a href="G_Electricas.html" class="botonCat" style="text-decoration: none;">G.Electrica</a>
+            <a href="Accesorios.html" class="botonCat" style="text-decoration: none;">Accesorios</a>
+          </div>
+        </div>
+      </div>      
+
+<!-- ------------------------------ swiper ------------------------------- -->
+
+    <style>
+      .cw{
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-container {
+        width: 100%;
+        padding-top: 45px;
+        padding-bottom: 40px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 460px;
+        height: 460px;
+        border-radius: 0.2em;
+      }
+      </style>
+
+    <div class="cw">
+      <h2 class="TitGV"><u>Lo más vendido!</u></h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(img/masvendidas/1.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(img/masvendidas/2.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(img/masvendidas/3.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(img/masvendidas/4.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(img/masvendidas/5.jpg)"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <script src="js/swiper.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+
+        pagination: {
+          el: '.swiper-pagination',
+          },
+      });
+    </script>
+
+<br> 
+<!-- ----------------------------- comentarios ----------------------------- -->
+
+      <div class="container-fluid">
+        <h2 class="titComen">Comentarios</h2>
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="inam" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="container2">
+                    <div class="row">
+
+                      <div class="col-sm-12 col-lg-12">
+                        <div class="cardC">
+                          <div class="card-body">
+                            <h4 class="card-title" id="tituloC"> <img src="img/comentario/2.png" alt="" height="50" width="50"> Maria Peralta</h4>
+                            <p class="com">Muchas gracias por el producto llego realmente rápido y tal como en la imagen.</p>				
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="container2">
+                    <div class="row">
+                      
+                      <div class="col-sm-12 col-lg-12">
+                        <div class="cardC">
+                          <div class="card-body">
+                            <h4 class="card-title"> <img src="img/comentario/3.png" alt="" height="50" width="50"> Juliana Rivareneira</h4>
+                            <p class="com">La funda me llegó de manera instantánea y con precio adecuado, muy buen servicio.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="container2">
+                    <div class="row">
+                      
+                      <div class="col-sm-12 col-lg-12">
+                        <div class="cardC">
+                          <div class="card-body">
+                            <h4 class="card-title"> <img src="img/comentario/4.png" alt="" height="50" width="50"> Juliana Rivareneira</h4>
+                            <p class="com">La personalización se realizó tal y como lo solicité y con un precio barato.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+              <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a href="#inam" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+<!-- -------------------------- modal quien somos -------------------------- -->
+
+      <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <h5 class="modal-title" id="tituloqs"><u>Más acerca de nosotros</u></h5>
+            <div class="modal-body">
+              <div class="textoqs">
+                <h6>Misión: Es superar las expectativas de los entusiastas de la música worldwide. Ofreciendo también una línea completa de accesorios.</h6>
+                <hr align="left" class="bordeM">
+                <h6>Visión: Deseamos ser sinónimo de instrumentos de calidad entre los músicos, sintiéndose orgullosos de poseer y ejecutar nuestros productos.</h6>
+                <hr align="right" class="borderV">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+<!-- ------------------------ Modal Iniciar Sesion ------------------------- -->
+
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+
+            <div class="contenidoMIS">
+              <h5 class="modal-title"><img src="img/iniciars/iconlogin.png" alt="" height="35" width="35"> <u>Iniciar Sesion</u> </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+              <br> <br>
+            
+              <label for="correo" class="form-label"> <img src="img/iniciars/arroba_bg.png" alt="" height="35" width="35"> Correo electronico:</label>
+              <input type="email" id="correo" class="form-txt1" placeholder="Escriba su correo">
+              <br> <br>
+              <label for="contraseña" class="form-label"> <img src="img/iniciars/candado.png" alt="" height="35" width="35"> Contraseña:</label>
+              <input type="password" id="contraseña" class="form-txt1" placeholder="Escriba su contraseña">
+              <div class="contraseña"><a href="">¿Olvidaste tu contraseña?</a></div>
+              <br> 
+              
+              <div class="botones">
+                <button type="button" class="btnIngresar" data-toggle="modal" data-target="#exampleModal3">Ingresar</button>
+                <br>
+                <button type="button" class="registrarbtn" data-toggle="modal" data-target="#exampleModalCenter2">Registarse</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+<!-- ---------------------------- notificacion ----------------------------- -->
+
+      <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-contentN">
+            <div class="modal-header">
+              <h7 id="titulocomentario" class="modal-title" id="exampleModalLabel">Ingresó correctamente</h7>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal4" tabindex="30" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-contentN">
+            <div class="modal-header">
+              <h7 id="titulocomentario" class="modal-title" id="exampleModalLabel">Se envio un correo de confirmación</h7>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- --------------------------- Modal Registro ---------------------------- -->
+
+      <div class="modal fade" id="exampleModalCenter2" tabindex="-20" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="container register-form">
+          <div class="form">
+              <br>
+              <div class="modal-header">
+                <h5 class="modal-title"><img src="img/iniciars/iconlogin.png" alt="" height="35" width="35"> <u>Registarse</u> </h5>
+                <a href="index.html" class="cerrar" style="font-size: x-large;">X</a>
+              </div>
+              <br>
+
+              <div class="form-content">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="">Nombre:</label>
+                              <input type="text" class="rellenar" placeholder="Ingrese su nombre" value=""/>
+                          </div>
+                          <div class="form-group">
+                              <label for="">Apellido:</label>
+                              <input type="text" class="rellenar" placeholder="Ingrese su apellido" value=""/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Correo:</label>
+                            <input type="text" class="rellenar" placeholder="Ingrese su correo" value=""/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Contraseña:</label>
+                            <input type="text" class="rellenar" placeholder="Ingrese su contraseña" value=""/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Confirmar contraseña:</label>
+                            <input type="text" class="rellenar" placeholder="Confirme contraseña" value=""/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Telefono:</label>
+                            <input type="text" class="rellenar" placeholder="Ingrese su telefono" value=""/>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Dirección:</label>
+                            <input type="text" class="rellenar" placeholder="Ingrese su dirección" value=""/>
+                          </div>
+                      </div>
+                      <div class="col-md-6" id="fondoRegistro2" >
+                          <div class="form-group">
+                              <label for="">Sexo:</label>
+                                <br>
+                                <div class="btn-group" role="group">
+                                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Selccione su Sexo
+                                  </button>
+                                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item" href="#">Masculino</a>
+                                    <a class="dropdown-item" href="#">Femenino</a>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="form-group">
+                              <label for="">País:</label>
+                              <br>
+                                <div class="btn-group" role="group">
+                                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Selccione su país
+                                  </button>
+                                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item" href="#">Péru</a>
+                                    <a class="dropdown-item" href="#">Argentina</a>
+                                    <a class="dropdown-item" href="#">Colombia</a>
+                                    <a class="dropdown-item" href="#">Ecuador</a>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Ciudad:</label>
+                            <br>
+                              <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Selccione su ciudad
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                  <a class="dropdown-item" href="#">Lambayeque</a>
+                                  <a class="dropdown-item" href="#">Lima</a>
+                                  <a class="dropdown-item" href="#">Piura</a>
+                                  <a class="dropdown-item" href="#">Cusco</a>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="">Fecha de nacimiento:</label>
+                            <input type="date" class="rellenar" value=""/>
+                                
+                          </div>
+                          <label>
+                            <input type="checkbox"  id="terminos">
+                            Al crear esta cuenta, aceptas nuestros terminos y condiciones.
+                          </label>
+                          <button type="button" class="btnRegis" data-toggle="modal" data-target="#exampleModalCenter4">Registarse</button>
+                          <br>
+                          <h4>Registarse con:</h4>
+                          
+                          <div class="btnredes">
+                          <button type="button" role="link" class="btnFb" href="https://www.facebook.com/">Facebook</button>
+                          
+                          <br>
+                          <button type="button" role="link" class="btnG"  href="https://www.google.com/">Gmail</button>
+                          </div>
+                          <br>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+
+<!-- ------------------------------ artistas ------------------------------- -->
+
+      <div class="modal fade" id="exampleModalArtista" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="contenidoartista">
+            <div class="modal-header">
+              <h5 class="modal-title" id="tituloartista">Nuestros Artistas</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <h6 style="color: white; text-align: center;">Para pasar, seleccione los circulos azules de la parte inferior.</h6>
+            <div class="modal-body">
+              <div class="swiper-container" data-swiper="init" data-grab-cursor="true" data-effect="coverflow">
+                <div class="swiper-wrapper pb-2">
+                  <div class="swiper-slide" style="background-image:url(img/modalartista/1.jpg)">
+                    <div class="textoImg">
+                      <h4>Jimi Hendrix</h4>
+                      <p>Es conocido por usar amplificadores con distorsión, alto volumen y ganancia, además de que fue un innovador en aprovecharse de los acoples generados por la guitarra.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" style="background-image:url(img/modalartista/3.jpg)">
+                    <div class="textoImg">
+                      <h4>John Frusciante</h4>
+                      <p>La técnica esta centrada en la emotividad y la melodía más que en el virtuosismo.Fue elegido por la revista Rolling Stone en el puesto número 72 de la Lista de los 100 guitarristas más grandes de todos los tiempos.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" style="background-image:url(img/modalartista/4.jpg)">
+                    <div class="textoImg">
+                      <h4>Slash</h4>
+                      <p>Toca guitarras Gibson, incluido BC Rich, con quien ha diseñado varios modelos personalizados basados ​​en sus diseños Mockingbird y Bich. También ha usado guitarras de Fender, Gretsch , Jackson y Martin.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+<!-- ------------------------------- Footer -------------------------------- -->
+
+<footer>
+      <div class="card" id="fondo" >
+        <div class="card-body">
+          <div class="row">
+
+            <div class="col-sm-5">
+              <div class="caja1">
+                <div class="card-body">
+                  <img src="img/mapa.png" alt="" width="100%" height="240">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="caja2">
+                <div class="card-body">
+                  <ul>
+                    <br>
+                      <li>Horario de atención:</li>
+                        <p>-Lunes a viernes: 8 a.m a 9 p.m</p> 
+                        <p>-Sábados y domingos: 8 a.m a 1 p.m</p> 
+                      <li>Dirección:</li>
+                        <p>-Av diamelas 343</p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="caja3">
+                <div class="card-body">
+                  <h6>Siguenos en:</h6>
+                  <a class="btnr" href="https://es-la.facebook.com/"><img src="img/facebook.png" alt="" height="55" width="55"></a>
+                  <a class="btnr" href="https://www.instagram.com/"><img src="img/instagram.png" alt="" height="55" width="55"></a>
+                  <a class="btnr" href="https://twitter.com/"><img src="img/twitter.png" alt="" height="55" width="55"></a>
+                  <hr color="white">
+                  <h6>Consultas a whatsapp <img src="img/whatsapp.png" alt="" height="35" width="35"></h6>
+                  <p>978 923 432</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/inicio.js"></script>
+    
+    
+    
+</body>
+</html>

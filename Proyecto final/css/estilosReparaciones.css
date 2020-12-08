@@ -1,0 +1,59 @@
+
+/* -------------------------- contenido reparacion -------------------------- */
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.form2 , .form1{
+    position: relative;
+    float: left;
+    color: white;
+}
+
+.fomr2{
+    margin-left: 1rem;
+}
+.direccion{
+    width: 97.3%;
+    color: rgb(0, 0, 0);
+}
+.reparacion{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+.botonReparacion{
+    color: black;
+    font-family: cursive;
+    width: 60%;
+    background-image: url(../img/catReparaciones/btn.png);
+}   
+
+.cajita1{
+    width: 97%;
+}
+.cajita2{
+    width: 97.3%;
+    height: 60%;
+}
+
+h1{
+    text-align: left;
+}
+
+section{
+    background-image: url(../img/catReparaciones/fondito.jpg);
+}
+
+.lineas{
+    height: 1rem;
+    width: 100%;
+    background: black;
+}
+
+.contenedor{
+    margin-left: 10em;
+    margin-right: 10em;
+}
